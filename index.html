@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Collection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="page-title">My Favorite Books</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="description">Click the buttons below to interact with your book list!</p>
+      <button onclick="updateTitle()">Change Title</button>
+      <button onclick="styleDescription()">Style Description</button>
+    </section>
+
+    <section>
+      <h2>Book List</h2>
+      <ul id="book-list">
+        <li>The Great Gatsby</li>
+        <li>1984</li>
+        <li>To Kill a Mockingbird</li>
+      </ul>
+      <button onclick="addBook()">Add Book</button>
+      <button onclick="removeBook()">Remove Last Book</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Lovers Club</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
